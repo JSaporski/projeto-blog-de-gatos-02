@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 2.6rem;
+  padding: 1.2rem 2.8rem;
+  background-color: var(--mid-darkish-blue);
+}
+
+.header form {
+  flex: 1;
+}
+
+.header form input {
+  width: 100%;
+  height: 4rem;
+  padding: 1.2rem 1.4rem;
+  background-color: var(--white-20-percent);
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.header form input::placeholder {
+  color: inherit;
+}
+
+.header img {
+  border-radius: 50%;
+}

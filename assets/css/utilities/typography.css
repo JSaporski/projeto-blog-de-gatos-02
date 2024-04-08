@@ -1,0 +1,32 @@
+/***** Font Import *****/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/***** Headings *****/
+.ff-inherit {
+  font-family: inherit;
+}
+
+.fs-lg {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.fs-md {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.fs-sm {
+  font-size: 1.6rem;
+}
+
+.fs-xsm {
+  font-size: 1.4rem;
+}
+
+.fs-lg,
+.fs-md,
+.fs-sm,
+.fs-xsm {
+  line-height: 160%;
+}

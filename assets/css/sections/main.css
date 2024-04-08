@@ -1,0 +1,29 @@
+.post-header-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem 2rem;
+}
+
+.post-header-info h1 {
+  flex-basis: 80%;
+  margin-bottom: 0.8rem;
+}
+
+.social-actions {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.social-actions button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.post-content {
+  margin-inline: 2rem;
+}
+
+.post-content p + p {
+  margin-top: 2.4rem;
+}
