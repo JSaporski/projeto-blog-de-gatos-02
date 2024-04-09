@@ -2,6 +2,8 @@
 @import './utilities/typography.css';
 @import './utilities/colors.css';
 @import './global.css';
-@import './responsive.css';
 @import './sections/header.css';
 @import './sections/main.css';
+@import './sections/footer.css';
+@import './responsive.css';
+@import './animations.css';

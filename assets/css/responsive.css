@@ -1,0 +1,71 @@
+/***** Width >= 1025px *****/
+@media (min-width: 1025px) {
+  /** Global CSS **/
+  .container {
+    width: min(122rem, calc(100% - 8rem));
+    margin-inline: auto;
+  }
+
+  /** Header CSS **/
+  .header {
+    padding-inline: 0;
+  }
+
+  /** Main CSS - Post **/
+  .main {
+    flex-direction: row;
+    padding-block: 4rem;
+  }
+
+  .post {
+    flex: 1 2 80.2rem;
+  }
+
+  .post-header-img-wrapper {
+    border-radius: 0.5rem;
+  }
+
+  .post-header-img-wrapper img {
+    height: auto;
+  }
+
+  /** Main CSS - Aside **/
+  .related {
+    flex: 1 0 38.4rem;
+  }
+
+  .post-header-info,
+  .post-content,
+  .related {
+    margin-inline: 0;
+  }
+
+  /** Footer CSS **/
+  .footer {
+    margin-top: 0;
+  }
+}
+
+/***** Width <= 470px *****/
+@media (max-width: 470px) {
+  .header .palette {
+    position: initial;
+  }
+
+  .header .palette-wrapper {
+    top: 6.6rem;
+    width: fit-content;
+  }
+}
+
+/***** Width <= 374px *****/
+@media (max-width: 374px) {
+  /** Main CSS - Aside **/
+  .related-posts li {
+    grid-template-columns: auto;
+  }
+
+  .related-posts li img {
+    margin-bottom: 0.8rem;
+  }
+}

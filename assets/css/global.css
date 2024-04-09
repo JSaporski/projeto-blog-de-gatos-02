@@ -9,8 +9,10 @@
 }
 
 body {
+  overflow-x: hidden;
   font-family: 'Mulish';
   font-size: 1.6rem;
+  background-color: var(--mid-primary-20-percent);
 }
 
 ul {

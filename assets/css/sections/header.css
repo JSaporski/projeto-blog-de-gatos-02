@@ -1,9 +1,17 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 1.2rem 2rem;
+  background-color: var(--mid-darkish-primary);
+}
+
+.header .container {
   display: flex;
   align-items: center;
   gap: 2.6rem;
-  padding: 1.2rem 2.8rem;
-  background-color: var(--mid-darkish-blue);
 }
 
 .header form {
@@ -21,6 +29,42 @@
 
 .header form input::placeholder {
   color: inherit;
+}
+
+.header .palette {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.header .palette-btn {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.header .palette-wrapper {
+  position: absolute;
+  right: 0;
+  top: 4.9rem;
+  display: none;
+  width: max-content;
+  padding: 2rem;
+  background-color: var(--mid-darkish-primary);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.header .palette-wrapper.active {
+  display: block;
+}
+
+.header .palette-wrapper h3 {
+  margin-bottom: 1rem;
+}
+
+.header .palette-wrapper input {
+  width: 100%;
 }
 
 .header img {

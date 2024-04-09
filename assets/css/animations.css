@@ -1,0 +1,6 @@
+@keyframes slide {
+  from {
+    transform: translate(var(--x-axis), var(--y-axis));
+    opacity: var(--opacity);
+  }
+}

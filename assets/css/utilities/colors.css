@@ -1,11 +1,13 @@
 /***** Root Colors *****/
 :root {
-  --mid-darkish-blue: hsl(195, 91%, 25%);
-  --mid-blue: hsl(195, 46%, 40%);
+  --hue: 195;
+  --mid-darkish-primary: hsl(var(--hue), 91%, 25%);
+  --mid-primary: hsl(var(--hue), 46%, 40%);
+  --mid-primary-20-percent: hsla(var(--hue), 46%, 40%, 0.2);
   --white: hsl(0, 100%, 100%);
   --white-20-percent: hsla(0, 100%, 100%, 0.2);
-  --dark-blueish-gray: hsl(240, 6%, 13%);
-  --dark-blueish-gray-02: hsl(240, 6%, 8%);
+  --dark-primary-gray: hsl(var(--hue), 6%, 13%);
+  --dark-primary-gray-02: hsl(var(--hue), 6%, 8%);
 }
 
 /***** Font Inline Colors *****/
@@ -13,10 +15,10 @@
   color: var(--white);
 }
 
-.c-dark-blueish-gray {
-  color: var(--dark-blueish-gray);
+.c-dark-primary-gray {
+  color: var(--dark-primary-gray);
 }
 
-.c-dark-blueish-gray-02 {
-  color: var(--dark-blueish-gray-02);
+.c-dark-primary-gray-02 {
+  color: var(--dark-primary-gray-02);
 }
